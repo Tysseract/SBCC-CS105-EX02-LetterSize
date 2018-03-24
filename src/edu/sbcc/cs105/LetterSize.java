@@ -35,7 +35,7 @@ public class LetterSize {
     	String paperHeightMMstr = String.format("%.2f",paperHeightMM);
     	String paperLengthMMstr = String.format("%.2f",paperLengthMM);
     	
-    	//concatinate and print
+    	//Concatenate and print
     	String paperSizeMM = (paperHeightMMstr + "x" + paperLengthMMstr);
     	return paperSizeMM;
     			
